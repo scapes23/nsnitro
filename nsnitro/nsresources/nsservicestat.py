@@ -7,31 +7,31 @@ class NSServiceStat(NSBaseResource):
                 super(NSServiceStat, self).__init__()
                 self.options = {
                         'name': '',             # Name of the service.
-                        'requestbytesrate'
-                        'requestsrate'
-                        'surgecount'
-                        'cursrvrconnections'
-                        'servicetype'
-                        'curtflags'
-                        'primaryport'
-                        'totalrequests'
-                        'svrestablishedconn'
-                        'vsvrservicehitsrate'
-                        'state'
-                        'maxclients'
-                        'throughputrate'
-                        'responsesrate'
-                        'totalrequestbytes'
-                        'primaryipaddress'
-                        'curload'
-                        'vsvrservicehits'
-                        'activetransactions'
-                        'curclntconnections'
-                        'totalresponses'
-                        'curreusepool'
-                        'throughput'
-                        'totalresponsebytes'
-                        'responsebytesrate'
+                        'requestbytesrate': '',
+                        'requestsrate': '',
+                        'surgecount': '',
+                        'cursrvrconnections': '',
+                        'servicetype': '',
+                        'curtflags': '',
+                        'primaryport': '',
+                        'totalrequests': '',
+                        'svrestablishedconn': '',
+                        'vsvrservicehitsrate': '',
+                        'state': '',
+                        'maxclients': '',
+                        'throughputrate': '',
+                        'responsesrate': '',
+                        'totalrequestbytes': '',
+                        'primaryipaddress': '',
+                        'curload': '',
+                        'vsvrservicehits': '',
+                        'activetransactions': '',
+                        'curclntconnections': '',
+                        'totalresponses': '',
+                        'curreusepool': '',
+                        'throughput': '',
+                        'totalresponsebytes': '',
+                        'responsebytesrate': '',
                         'avgsvrttfb': '',       # Average TTFB between the NetScaler appliance and the server.TTFB is the time interval
                 }
                 self.resourcetype = NSServiceStat.get_resourcetype()
